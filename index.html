@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Directory</title>
+  <link rel="icon" href="img/logo.svg">
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fw-bold bg-white fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Template
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contarc</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sing in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sing up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <button class="btn btn-primary" type="submit">ADD A LISTING</button>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- carousel--st -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel-content">
+        <img src="img/cover1.jpg" class="d-block w-100" alt="...">
+        <div class="container carousel-content-div">
+          <div class="row py-1 px-3">
+            <div class="col-md-10">
+              <h4 class="carousel-content-sub-title">THE BEST HOLIDAY EXPERIENCE</h4>
+              <h1 class="carousel-content-title py-4">Stay like a local</h1>
+              <div>
+                <div class="search-row">
+                  <form action="#">
+                    <div class="row  py-1 px-3">
+                      <div class="col-md-4 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0 " type="search" placeholder="Search"
+                          aria-label="Search">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0" type="location" placeholder="location"
+                          aria-label="location">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <div class="dropdown">
+                          <input class=" dropdown-toggle" type="" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                          </input>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-2">
+                          <a href="" class="btn btn-primary btn-lg">Search</a>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/cover2.jpg" class="d-block w-100" alt="...">
+        <div class="container carousel-content-div">
+          <div class="row ">
+            <div class="col-md-10">
+              <h4 class="carousel-content-sub-title">THE BEST HOLIDAY EXPERIENCE</h4>
+              <h1 class="carousel-content-title">Stay like a local</h1>
+              <div>
+                <div class="search-row">
+                  <form action="#">
+                    <div class="row  py-2 px-3">
+                      <div class="col-md-4 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0 " type="search" placeholder="Search"
+                          aria-label="Search">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0" type="location" placeholder="location"
+                          aria-label="location">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <div class="dropdown">
+                          <input class="dropdown-toggle" type="dropdown" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                          </input>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <a href="" class="btn btn-primary btn-lg">Search</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/cover3.jpg" class="d-block w-100" alt="...">
+        <div class="container carousel-content-div">
+          <div class="row  py-2 px-3 ">
+            <div class="col-md-10">
+              <h4 class="carousel-content-sub-title">THE BEST HOLIDAY EXPERIENCE</h4>
+              <h1 class="carousel-content-title py-4">Stay like a local</h1>
+              <div>
+                <div class="search-row">
+                  <form action="#">
+                    <div class="row  py-1 px-3">
+                      <div class="col-md-4 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0 " type="search" placeholder="Search"
+                          aria-label="Search">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <input class="form-control border-0 shadow-0" type="location" placeholder="location"
+                          aria-label="location">
+                      </div>
+                      <div class="col-md-3 d-flex g-0 align-items-center from-group">
+                        <div class="dropdown">
+                          <input class=" dropdown-toggle" type="" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                          </input>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <a href="" class="btn btn-primary btn-lg">Search</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- carousel--ed -->
+  <section class="bg-light">
+    <div class="container-fluid">
+      <div class="text-center pt-5 conten">
+        <h6 class="clo-r">ONE-OF-A-KIND VACATION RENTALS</h6>
+        <h4 class="fw-bold">ONE-OF-A-KIND VACATION RENTALS</h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <a href="">
+              <i class="bi bi-calendar3-event-fill icon"></i>
+            </a>
+            <h3 class="pt-5">Find the perfect rental</h3>
+            <h6 class="pt-2">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in
+              his bed in</h6>
+          </div>
+          <div class="col text-center">
+            <a href="">
+              <i class="bi bi-heart icon"></i>
+            </a>
+            <h3 class="pt-5">Enjoy your vacation</h3>
+            <h6 class="pt-2">His room, a proper human room although a little too small, lay peacefully between its four
+              familiar</h6>
+          </div>
+          <div class="col text-center">
+            <a href="">
+              <i class="bi bi-phone-fill icon"></i>
+            </a>
+            <h3 class="pt-5">Book with confidence</h3>
+            <h6 class="pt-2">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many
+              legs, pit</h6>
+          </div>
+        </div>
+  </section>
+  <section class="pt-5 pb-5">
+    <div class="container ">
+      <h5>STAY AND EAT LIKE A LOCAL</h5>
+      <h1>Our guides</h1>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col zoom ">
+          <div class="card h-100">
+            <img src="img/paris.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> PARIS</h5>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col zoom">
+          <div class="card h-100">
+            <img src="img/new-york.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> NEW YORK</h5>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col zoom">
+          <div class="card h-100">
+            <img src="img/prague.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> US</h5>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="pt-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-info">Hotel star</h2> 
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="item">
+          <div class="card h-100">
+            <img src="img/new-york.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+            <img src="img/prague.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+            <img src="img/paris.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <div class="card h-100">
+          <img src="img/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             <p class="card-text"><h1>modaen well </h1></p>
+            <p>privetroom
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+    </div>
+  </section>
+  <section>
+    <div class="overly_img">
+      <img src="img/photo-1497436072909-60f360e1d4b1.jpg" alt="" height="500px" width="100%">
+      <div class="text-overly">
+        <h1>Ready for your next holidays?</h1>
+        <button type="button" class="btn btn-light">GET STARTED</button>
+      </div>      
+    </div>
+  </section>
+  <section class="pt-5">
+    <div class="container">
+      <h6 class="text-warning">HURRY UP, THESE ARE EXPIRING SOON.</h6>
+      <h2 class="pt-2">Last minute deals</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/trale.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Autumn fashion tips and tricks</h5>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus <br> Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+              <a href="">Read More....</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/travel1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Autumn fashion tips and tricks</h5>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus <br> Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+              <a href="">Read More....</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/travel1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Autumn fashion tips and tricks</h5>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus <br> Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+              <a href="">Read More....</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <section class="pt-5">
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="img/footer3.jpg" alt=""> </div>
+      <div class="item"><img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+      <div class="item"> <img src="img/fotter1.jpg" alt=""></div>
+  </div>
+  </section>
+  <!-- fotter -->
+  <section class="bg-light ">
+    <div class="container">
+      <div class="row pt-5 mb-2">
+        <dive class="col-md-3 ">
+          <h1>DIRECTORY</h1>
+          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing.</h6>
+          <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+          <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+          <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+        </dive>
+        <dive class="col-md-3">
+          <h2>RENTALS</h2>
+         <p> <a href="">Rooms</a></p>
+          <p><a href=""> Map on top</a></p>
+          <p><a href="">Side map</a></p>
+          <p><a href="">  No map</a></p>
+        </dive>
+        <dive class="col-md-3">
+          <h2>PAGES</h2>
+          <p><a href="">Comparison</a></p>
+          <p><a href=""> Team</a></p>
+          <p><a href="">Contact</a></p>
+        </dive>
+        <dive class="col-md-3">
+          <h2>DAILY OFFERS</h2>
+          <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</h6>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          </div>
+        </dive>
+      </div>
+    </div>
+  </section>
+  <!-- fotter -->
+  <section class="bg-dark text-center text-white fotter-h">
+    © 2021, Your company. All rights reserved.
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+ <script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+ </script>
+ <script type="text/javascript">
+  $('.owl-carousel').owlCarousel_tow({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:8
+        }
+    }
+})
+ </script>
+
+
+</body>
+
+</html>

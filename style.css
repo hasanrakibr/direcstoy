@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+color:#000;
+}
+.carousel-content{
+    position: relative;
+}
+.carousel-content-div {
+    position: absolute;
+    top: 280px;
+    left: 156px;
+}
+.search-row{
+    background-color: aliceblue;
+}
+.carousel-content-sub-title{
+    color: rgb(243, 10, 92);
+    font-size: 16px
+}
+.carousel-content-title{
+    color: #fff;
+    font-size: 55px;
+}
+.dropup .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid;
+    border-left: 0.3em solid transparent;
+}
+.clo-r{
+    color: rgb(243, 10, 92);
+}
+.conten{
+    padding: 65px;
+}
+.icon{
+font-size: 35px;
+}
+.card-body{
+    position: relative;
+   
+}
+.zoom {
+    
+    padding: 1px;
+    transition: transform .8s; /* Animation */
+    
+    
+  }
+  .zoom:hover {
+    transform: scale(.9)
+  }
+.card-title {
+    position: absolute;
+    top: -41px;
+    text-align: center;
+    left: 137px;
+    color: #fff;
+}
+.overly_img{
+    position: relative;
+    
+}
+.text-overly {
+    position: absolute;
+    top: 252px;
+    left: 221px;
+    color: #ffff;
+}
+.text-overly h1{
+    font-size: 61px;
+}
+.fotter-h{
+    padding:25px;
+}
